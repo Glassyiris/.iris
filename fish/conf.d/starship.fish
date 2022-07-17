@@ -1,0 +1,1 @@
+set STARSHIP_CONFIG /Users/iris/.iris/starship.toml

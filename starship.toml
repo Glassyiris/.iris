@@ -1,0 +1,23 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false
+
+scan_timeout = 10
+continuation_prompt = "▶▶"
+format = """$character"""
+right_format = """$all"""
+[rust]
+format = "via [⚙️ $version](red bold)"
+
+[shell]
+fish_indicator = "▶"
+format = """$character"""
+unknown_indicator = "mystery shell"
+disabled = false
+
+[time]
+disabled = false
+format = '[\[ $time \]]($style) '
+time_format = "%T"
+utc_time_offset = "+8"
+time_range = "10:00:00-14:00:00"
